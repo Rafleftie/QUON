@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="littledroidtech.quon">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/quonr"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Splash"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Missing_Mark"
+            android:label="Missing Mark Form " />
+        <activity
+            android:name=".Events"
+            android:label="@string/Events_Page" />
+        <activity
+            android:name=".Question"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Notes"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Level_notes"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Level_questions"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".First_year"
+            android:label="First-Year Units" />
+        <activity
+            android:name=".Second_year"
+            android:label="Second-Year Units" />
+        <activity
+            android:name=".Third_year"
+            android:label="Third-Year Units" />
+        <activity
+            android:name=".Fourth_year"
+            android:label="Fourth-Year Units" />
+        <activity
+            android:name=".Level_questions_one"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Level_questions_two"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Level_questions_three"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Level_questions_four"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Login"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".EmailMe"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".BookOne"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".QuestionDate"
+            android:label="Yearly Questions" />
+        <activity android:name=".Book2" />
+        <activity android:name=".BookThree" />
+        <activity android:name=".BookFour" />
+        <activity android:name=".BookFive" />
+        <activity android:name=".Book6" />
+        <activity android:name=".Book7" />
+        <activity android:name=".Book8" />
+        <activity android:name=".Book9" />
+        <activity android:name=".Book10" />
+        <activity android:name=".Book11" />
+        <activity android:name=".Book12" />
+        <activity
+            android:name=".Underconst"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+    </application>
+
+</manifest>

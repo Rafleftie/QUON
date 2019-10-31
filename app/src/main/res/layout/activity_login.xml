@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+
+    <ImageView
+        android:id="@+id/logimages"
+        android:layout_width="213dp"
+        android:layout_height="146dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginRight="108dp"
+        android:src="@drawable/logpic" />
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="238dp"
+        android:layout_height="36dp"
+        android:layout_alignStart="@+id/helpmail"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="102dp"
+        android:background="@drawable/borderstyle"
+        android:hint="Reg. Number"
+        android:paddingLeft="15dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="18sp" />
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="238dp"
+        android:layout_height="36dp"
+        android:layout_alignStart="@+id/email"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="370dp"
+        android:background="@drawable/borderstyle"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginBottom="302dp"
+        android:background="@drawable/mybutton"
+        android:text="Log in"
+        android:textColor="@color/black" />
+
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="285dp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/helpmail"
+        android:layout_width="275dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginLeft="31dp"
+        android:layout_marginBottom="77dp"
+        android:text="New Members press Here to get a new password."
+        android:textColor="@color/blue"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="17sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginBottom="27dp"
+        android:text="Powered by Little Droid Tech." />
+
+    <Button
+        android:id="@+id/buttreq"
+        android:layout_width="242dp"
+        android:layout_height="36dp"
+        android:layout_alignStart="@+id/helpmail"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginBottom="172dp"
+        android:text="Allow Permissions Here." />
+
+
+</RelativeLayout>

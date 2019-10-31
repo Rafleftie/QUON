@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient"
+    android:layout_height="match_parent"
+    tools:context=".QuestionDate">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button4"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="36dp"
+        android:text="Past Papers" />
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="79dp"
+        android:background="@drawable/mybutton"
+        android:text="2019"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/mybutton"
+        android:text="2018"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginLeft="58dp"
+        android:layout_marginTop="218dp"
+        android:background="@drawable/mybutton"
+        android:text="2017"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-277dp"
+        android:layout_marginTop="291dp"
+        android:layout_toEndOf="@+id/button6"
+        android:background="@drawable/mybutton"
+        android:text="2016"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="138dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="129dp"
+        android:layout_marginLeft="129dp"
+        android:layout_marginBottom="112dp"
+        android:background="@drawable/mybutton"
+        android:text="2015"
+        android:textSize="25dp" />
+
+
+</RelativeLayout>
+

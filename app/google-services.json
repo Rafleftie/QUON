@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "610762775930",
+    "firebase_url": "https://quon-645b3.firebaseio.com",
+    "project_id": "quon-645b3",
+    "storage_bucket": "quon-645b3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:610762775930:android:c7ca9a9977a2c648",
+        "android_client_info": {
+          "package_name": "littledroidtech.quon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "610762775930-7956lk9pubdi6buuakvbm89ai1gtc5e5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "littledroidtech.quon",
+            "certificate_hash": "8bb89930d07806b5413568499e98d9ef5e2250c5"
+          }
+        },
+        {
+          "client_id": "610762775930-07mr504tuest5ujn8h48g4g70uo1hkg0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-em3I8U_GBoNbvI1RIu3CYtM-eKOEkHk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "610762775930-07mr504tuest5ujn8h48g4g70uo1hkg0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
